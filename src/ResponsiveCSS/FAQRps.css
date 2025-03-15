@@ -1,0 +1,57 @@
+@media screen and (max-width:500px) {
+    .faq{
+        width: 100%;
+        height: 40vh;
+        font-family:  Arial, Helvetica, sans-serif;
+        color: white;
+        background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)) , url('../images/About/Rpsimg1.png') center;
+        background-size: cover;
+        /* border: 2px solid black; */
+    }
+    .faq h1{
+        font-size: 1.5em;
+        margin-left: -58%;
+        font-weight: normal;
+    }
+    .faq h4{
+        margin-top: 25%;
+        margin-left: 5%;
+    }
+    .faq a{
+        font-size: 1em;
+    }
+    .faq i{
+        font-size: 1em;
+    }
+    .faqitems_main{
+        width: 100%;
+        height: auto;
+        margin-bottom: 10%;
+        border: 2px solid black;
+    }
+    .faqitems_container{
+        width: 100%;
+        height: 90%;
+        flex-direction: column;
+    }
+    .faqitems_container img{
+        width: 95%;
+        height: 60vh;
+        margin-left: 2.5%;
+    }
+    .main_faqitems{
+        width: 95%;
+        height: auto;
+    }
+    .faqitems{
+        width: 100%;
+        height: auto;
+    }
+    .faqitems article{
+        width: 100%;
+        height: 10vh;
+    }
+    .faqitems article h3{
+        font-size: 1em;
+    }
+}

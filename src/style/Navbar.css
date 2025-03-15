@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main_navbar{
+    width: 100%;
+    height: 16vh;
+    /* border: 2px solid black; */
+}
+.navbar_top img{
+    width: 15% ;
+    height: 90px;
+    margin-left: 14%;
+}
+.navbar_top_btn1{
+    width: 20%;
+    font-size: 1.2rem;
+    position: relative;
+    left: 25%;
+    bottom: 35px;
+    color: #7a7373;
+    background: transparent;
+    border: none;    
+    cursor: pointer;
+}
+.dropdown{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    display: none;
+    top: 35px;
+    left: 200px;
+} 
+.dropdown a{
+    color: white !important;
+}
+.content:hover .dropdown{
+    display: flex;
+    flex-direction: column;
+}
+.navbar_top_btn1 button{
+    border: none;
+    background-color: transparent;
+    font-size: 1.2rem;
+    margin-right: 20px;
+}
+.navbar_top_btn2{
+    width: 15%;
+    height: 10vh;
+    font-size: 1rem;
+    position: relative;
+    left: 25%;
+    bottom: 35px;
+    background-color: #EB4F2F;
+    color: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.navbar_top button i{
+    color: #EB4F2F;
+}
+hr{
+    width: 100%;
+    margin-top: -20px;
+    border: 1px solid #BCBCBC;
+}
+.navbar{
+    width: 100%;
+    height: 80px;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    z-index: 2;
+}
+.content{
+    margin-left: 10%;
+    position: relative;
+}
+.content a{
+    color: black;
+    /* margin: 0px 10px; */
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-family: Calibri;
+    padding: 10px 20px;
+    font-weight: bold;
+    transition: .6s;
+}
+.icons{
+    display: flex;
+    position: relative;
+    left: -10%;
+    gap: 20px;
+    color: #EB4F2F;
+    font-size: 1.2rem;
+}
+.active{
+    background-color: #EB4F2F;
+    color: white !important ;
+}
+.content a:hover{
+    background-color: #EB4F2F;
+    color: white ;
+    transition: .6s;
+}
+.RPS_navbar{
+    display: none;
+}
+.nav {
+    display: none;
+}

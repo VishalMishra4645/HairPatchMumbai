@@ -1,0 +1,426 @@
+/* -----------------------------------------Responsive-------------------------------------------------------- */
+
+@media screen and (max-width:500px) {
+    .home{
+        width: 100%;
+        height: 40vh;
+        /* border: 2px solid black; */
+    }
+    .home video{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;   
+    }
+
+    /* ------------------------------------Responsive-----home_2nd--------------------------------------------------- */
+
+    .home_2nd{
+        width: 100%;
+        height: 35vh;
+        flex-direction: column;
+    }
+    .home_2nd h3{
+        margin-top: 5%;
+        font-size: 1em;
+        margin-left: -15%;
+    }
+    .home_2nd img{
+        width: 8%;
+        height: 15%;
+        margin-top: -16%;
+        margin-left: 75%;
+    }
+    .home_2nd h4{
+        margin-top: -5%;
+    }
+    .home_2nd button{
+        width: 100%;
+        height: 10vh;
+        position: relative;
+        right: 0%;
+        bottom: 15%;
+    }
+
+/* ---------------------------------------------Responsive--Hercovits hair studio-------------------------------------------- */
+
+    .home_2nd_bottom{
+        width: 100%;
+        height: 30%;
+        position: absolute;
+    }
+    .home_2nd_bottom h1{
+        font-size: 2em;
+        position: relative;
+        top: 5%;
+    }
+    .home_2nd_bottom h2 span{
+        font-size: 1.1em;
+    }
+    .home_2nd_bottom h2 {
+        margin-top: 3%;
+        font-size: 1.1em;
+    }
+    .home_2nd_bottom h4{
+        font-size: .8em;
+        margin-top: 3%;
+    }
+
+    /* -----------------------------------------Responsive-----Global Leaders------------------------------------- */
+
+    .home_Global{
+        width: 100%;
+        height: 150vh;   
+        margin-top: 35%;
+        flex-direction: column;
+        /* border: 2px solid black; */
+    }
+    .home_Global_left{
+        width: 95%;
+        height: 60vh;
+        margin-left: 2.5%;
+    }
+    .home_Global_left img{
+        width: 100%;
+        height: 100%;
+        position: relative;
+        top: 15%;
+    }
+    .home_Global_left_text{
+        width: 100%;
+        height: 100vh;
+        flex-direction: column;
+        /* border: 2px solid black; */
+    }
+    .home_Global_left_text h1{
+        font-size: 1.7em;
+        font-weight: 900;
+        margin-top: 15%;
+        margin-left: -5%;
+    }
+    .home_Global_left_text p{
+        margin-top: 5%;
+        margin-left: 2%;
+        font-size: 1.2em;
+        line-height: 25px;
+        text-align: justify;
+    }
+    
+    /* ---------------------------------------Responsive----Hair Extension------------------------------------------- */
+
+    .hair_extension{
+        width: 100%;
+        height: 150vh;
+        flex-direction: column-reverse;
+        /* border: 2px solid black; */
+    }
+    .hair_extension_left{
+        width: 100%;
+        height: 80vh;
+        margin-left: 0%;
+        /* border: 2px solid black; */
+    }
+    .hair_extension_left h1{
+        font-size: 1.7em;
+        color: #EB4F2F;
+        margin-top: 2%;
+        margin-left: -40%;
+    }
+    .hair_extension_left p{
+        line-height: 30px;
+        text-align: justify;
+    }
+    .hair_extension_left button{
+        width: 40%;
+    }
+    .hair_extension_right{
+        width: 100%;
+        height: 70vh;
+    }
+    .hair_extension_right img{
+        width: 100%;
+        height: 100%;
+    }
+
+    /* ---------------------------------------Responsive--Hai Replacement--------------------------------------- */
+
+    .hair_replacement{
+        width: 100%;
+        height: 160vh;
+        flex-direction: column;
+        /* border: 2px solid black; */
+    }
+    .hair_replacement_left{
+        width: 100%;
+        height: 70vh;
+    }
+    .hair_replacement img{
+        width: 100%;
+        height: 100%;
+        margin-left: 0%;
+        margin-top: 5%;
+    }
+    .hair_replacement_right{
+        width: 100%;
+        height: 80vh;
+        margin-left: 0%;
+        margin-top: 5%;
+        /* border: 2px solid black; */
+    }
+    .hair_replacement_right h1{
+        font-size: 1.7em;
+        margin-top: 2%;
+        margin-left: -28%;
+    }
+    .hair_replacement_right p{
+        line-height: 30px;
+        text-align: justify;
+    }
+    .hair_replacement_right button{
+        width: 40%;
+    }
+
+    /* -------------------------------------------------Responsive--Hair Patch------------------------------------ */
+
+    .hair_patch{
+        width: 100%;
+        height: 170vh;
+        flex-direction: column-reverse;
+        /* border: 2px solid black; */
+    }   
+    .hair_patch_left{
+        width: 100%;
+        height: 85vh;
+        position: relative;
+        top: -5%;
+        bottom: 5%;
+        margin-left: 0%;
+        /* border: 2px solid black; */
+    }
+    .hair_patch_left h1{
+        font-size: 1.7em;
+        margin-top: 2%;
+        margin-left: -55%;
+    }
+    .hair_patch_left p{
+        text-align: justify;   
+        line-height: 30px;
+    }
+    .hair_patch_left button{
+        width: 40%;
+    }
+    .hair_patch_right{
+        width: 100%;
+        height: 70vh;
+        position: relative;
+        top: -5%;
+
+        /* border: 2px solid blue; */
+    }
+    .hair_patch_right img{
+        width: 100%;
+        height: 100%;
+        margin-top: 0%;
+    }
+
+    /* -------------------------------------------------Offers------------------------------------------------- */
+
+    .offers{
+        width: 100%;
+        height: 340vh;
+        /* border: 2px solid black; */
+    }
+    .offers_main_container{
+        width: 90%;
+        height: 100%;
+        margin-left: 5%;
+        flex-direction: column;
+        /* border: 2px solid black; */
+    }
+    .ofm{
+        width: 100%;
+        height: 110vh;
+    }
+    .ofm_bottom h2{
+        font-size: 1.5em;
+    }
+
+    /* ------------------------------------------------Two Eye Steps--------------------------------------- */
+
+    .two_eye_step{
+        width: 100%;
+        height: 100vh;
+        margin-top: 38%;
+        background-image: url("../images/Home/TowEyeStepsRSP.webp.png");
+        background-size: cover;
+        /* border: 2px solid black; */
+    }
+    .two_eye_step_right{
+        width: 100%;
+        height: 72vh;
+        position: relative;
+        top: 14%;
+        left: -0%;
+        background-color: rgb(185, 179, 172, .5);
+    }
+    .two_eye_step_right h5{
+        font-size: 1.2em;
+    }
+    .two_eye_step_right h6{
+        font-size: 1.2em;
+    }
+    .two_eye_step_right h5 i{
+        font-size: .8em;
+        color: #EB4F2F;
+    }
+    .two_eye_step_right h6 i{
+        font-size: .8em;
+        color: #EB4F2F;
+    }
+    .two_eye_step_right button{
+       width: 40%; 
+    }
+
+    /* -------------------------------------------Home_home_services-------------------------------------------- */
+
+    .home_services{
+        width: 100%;
+        height: 390vh;
+        /* border: 2px solid black; */
+    }
+    .main_home_services_container{
+        width: 90%;
+        height: 98%;
+        flex-direction: column;
+        /* border: 2px solid darkred; */
+    }
+    .home_services_container{
+        width: 100%;
+        height: 100vh;
+        margin-top: 10%;
+    }    
+    .home_services_container img{
+        width: 95%;
+        height: 50vh;
+        margin-left: 2.5%;
+    }
+    .home_services_container button{
+        width: 40%;
+        height: 10vh;
+    }
+
+    /* -------------------------------------------------- Testimonials------------------------------------------- */
+
+    .main_testimonials{
+        width: 100%;
+        height: 100vh;
+        margin-top: 15%;
+        border: 2px solid black;
+    }
+    .main_testimonials h1{
+        margin-top: -10%;
+    }
+    .testimonials{
+        width: 95%;
+        height: 100%;
+        margin-top: 15%;
+    }
+    .slider-container{
+        width: 100%;
+        height: 100%;
+        border: 2px solid darkmagenta;
+    }
+
+
+    /* ----------------------------------------------Home_contact-------------------------------------------- */
+
+    .home_contact{
+        width: 100%;
+        height: 200vh;
+        flex-direction: column;
+        /* border: 2px solid black; */
+    }
+    .home_contact_left{
+        width: 90%;
+        height: 100vh;
+        margin-top: -20%;
+        margin-left: -6%;
+        /* border: 2px solid blue; */
+    }
+    .home_contact_left input{
+        width: 94%;
+    }
+    .home_contact_left textarea{
+        width: 94%;
+    }
+    .home_contact_left button {
+        margin-top: 5%;
+        width: 40%;
+    }
+    .home_contact_left h4{
+        font-weight: normal;
+        margin-top: 10%;
+        font-size: 1em;
+    }
+    .home_contact_right{
+        width: 100%;
+        height: 30%;
+        margin-top: 25%;
+        margin-left: -0%;
+        /* border: 2px solid red; */
+    }
+    .img2{
+        width: 90%;
+        height: 50vh;
+        margin-left: 2.5%;
+    }
+    .img1{
+        width: 65%;
+        height: 30vh;
+        margin-top: -10%;
+        margin-left: 15%;
+    }
+
+/* ------------------------------------------------Result----------------------------------------------- */
+
+    .result{
+        width: 100%;
+        height: 330vh;
+        margin-bottom: 10%;
+        /* border: 2px solid darkslategray; */
+    }
+    .main_result_container{
+        width: 100%;
+        height: 95%;
+        margin-left: 2.5%;
+        flex-direction: column;
+    }
+    .result_container{
+        width: 95%;
+        height: 100vh;
+        margin-top: 10%;
+    }
+
+/* ----------------------------------------------Footer------------------------------------------------ */
+
+    .footer{
+        min-width: 100%;
+        min-height: 700vh;
+        margin-top: 35%;
+        display: flex;
+        flex-direction: column;
+        border: 2px solid black;
+        /* background-color: red; */
+    }
+
+    .footer_logo{
+        min-width: 100%;
+        min-height: 50px;
+        border: 2px solid brown; 
+    }
+    .footer_logo img {
+        min-width: 50px;
+        min-height: 50px;
+        /* margin-top: 5%; */
+        margin-left: 5%;
+    }
+}

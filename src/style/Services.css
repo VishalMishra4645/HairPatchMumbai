@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.services{
+    width: 100%;
+    height: 30vh;
+    font-family:  Arial, Helvetica, sans-serif;
+    color: white;
+    /* margin-top: 5%; */
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)) , url('../images/About/img1.png') center;
+    background-size: cover;
+}
+.services h2{
+    color: white;
+    position: relative;
+    top: 15%;
+    font-size: 2em;
+    margin-left: 12%;
+}
+.services h4{
+    margin-top: 4%;
+    margin-left: 10%;
+    font-size: 1.5em;
+    font-family: Script MT;
+}
+.services a{
+    text-decoration: none;
+    color: white;
+}
+.services h1{
+    text-align: center;
+    margin-top: 5%;
+    font-size: 2.5em;
+    color: #EB4F2F;
+}
+.main_services_container{
+    width: 80%;
+    height: 67vh;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid darkgreen; */
+}
+.services_container{
+    width: 23%;
+    height: 100%;
+    box-shadow: 2px 2px 5px 8px #CECECE;
+}
+.services_container img{
+    width: 95%;
+    height: 37vh;
+    margin-left: 2.5%;
+}
+.services_container h1{
+    font-weight: normal;
+    font-size: 1.7em;
+}
+.services_container button{
+    width: 40%;
+    height: 8vh;
+    margin-top: 10%;
+    margin-left: 6%;
+    cursor: pointer;
+    background-color: #EB4F2F;
+    color: white;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 1em;
+    border: none;
+}
+.services_container button i{
+    color: #fff;
+}
+h1{
+    color: #EB4F2F;
+    text-align: center;
+    margin-top: 5%;
+}
+
+

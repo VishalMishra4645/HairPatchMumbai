@@ -1,0 +1,47 @@
+@media screen and (max-width:500px) {
+    .services{
+        width: 100%;
+        height: 40vh;
+        font-family:  Arial, Helvetica, sans-serif;
+        color: white;
+        background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)) , url('../images/About/Rpsimg1.png') center;
+        background-size: cover;
+        /* border: 2px solid black; */
+    }
+    .services h1{
+        font-size: 1.5em;
+        margin-left: -58%;
+        font-weight: normal;
+    }
+    .services h4{
+        margin-top: 20%;
+        margin-left: 5%;
+    }
+    .services a{
+        font-size: 1em;
+    }
+    .services i{
+        font-size: 1em;
+    }
+    .main_services_container{
+        width: 100%;
+        height: 390vh;
+        flex-direction: column;
+        /* border: 2px solid darkred; */
+    }
+    .services_container{
+        width: 85%;
+        height: 100vh;
+        margin-top: 10%;
+        margin-left: 7.5%;
+    }    
+    .services_container img{
+        width: 95%;
+        height: 50vh;
+        margin-left: 2.5%;
+    }
+    .services_container button{
+        width: 40%;
+        height: 12vh;
+    }
+}

@@ -1,0 +1,49 @@
+@media screen and (max-width:500px) {
+    .blog_img{
+        width: 100%;
+        height: 40vh;
+        font-family:  Arial, Helvetica, sans-serif;
+        color: white;
+        background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)) , url('../images/About/Rpsimg1.png') center;
+        background-size: cover;
+        /* border: 2px solid black; */
+    }
+    .blog_img h1{
+        font-size: 1.5em;
+        margin-left: -58%;
+        font-weight: normal;
+    }
+    .blog_img h4{
+        margin-top: 25%;
+        margin-left: 5%;
+    }
+    .blog_img a{
+        font-size: 1em;
+    }
+    .blog_img i{
+        font-size: 1em;
+    }
+    .blog_cards{
+        width: 95%;
+        height: 550vh;
+        margin-left: 2.5%;
+        /* border: 2px solid black; */
+    }
+    .blog_card_container1{
+        width: 100%;
+        height: 315vh;
+        flex-direction: column;
+        /* border: 2px solid purple; */
+    }
+    .blog_card_container2{
+        width: 100%;
+        height: 215vh;
+        flex-direction: column;
+        /* border: 2px solid purple; */
+    }
+    .card{
+        width: 100%;
+        height: 100vh;
+        margin-bottom: 5%;
+    }
+}
